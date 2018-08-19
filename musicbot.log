@@ -1,0 +1,67 @@
+[49.970626831] 2018-08-19 12:02:53,130 - INFO - launcher: Starting sanity checks
+[49.970626831] 2018-08-19 12:02:53,130 - INFO - launcher: Checking for Python 3.5+
+[50.970077515] 2018-08-19 12:02:53,131 - INFO - launcher: Checking console encoding
+[50.970077515] 2018-08-19 12:02:53,131 - INFO - launcher: Setting console encoding to UTF-8
+[50.970077515] 2018-08-19 12:02:53,131 - INFO - launcher: Ensuring we're in the right environment
+[52.969694138] 2018-08-19 12:02:53,133 - INFO - launcher: Adding local bins/ folder to path
+[881.496667862] 2018-08-19 12:02:53,962 - INFO - launcher: Required checks passed.
+[884.491920471] 2018-08-19 12:02:53,965 - INFO - launcher: Optional checks passed.
+[885.491609573] 2018-08-19 12:02:53,966 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.7649888992309570] 2018-08-19 12:02:54,845 - WARNING - musicbot.config | In config.py::MainThread(9368), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.7649888992309570] 2018-08-19 12:02:54,845 - INFO - musicbot.config | In config.py::MainThread(9368), line 124 in run_checks: Using i18n: config/i18n/en.json
+[1.7689864635467529] 2018-08-19 12:02:54,849 - DEBUG - musicbot.json | In json.py::MainThread(9368), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.4695878028869629] 2018-08-19 12:02:55,550 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 223 in _setup_logging: Set logging level to INFO
+[2.4695878028869629] 2018-08-19 12:02:55,550 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 83 in __init__: Starting MusicBot 1.9.8-release
+[2.4705874919891357] 2018-08-19 12:02:55,551 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 89 in __init__: Loaded autoplaylist with 2531 entries
+[6.3398063182830811] 2018-08-19 12:02:59,420 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 913 in on_ready: Connection established, ready to go.
+[6.3398063182830811] 2018-08-19 12:02:59,420 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 334 in _cache_app_info: Caching app info
+[6.6768147945404053] 2018-08-19 12:02:59,757 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[6.6778140068054199] 2018-08-19 12:02:59,758 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 751 in _scheck_server_permissions: Checking server permissions
+[6.6778140068054199] 2018-08-19 12:02:59,758 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[6.6778140068054199] 2018-08-19 12:02:59,758 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 759 in _scheck_configs: Validating config
+[6.6788144111633301] 2018-08-19 12:02:59,759 - DEBUG - musicbot.config | In config.py::MainThread(9368), line 213 in async_validate: Validating options...
+[6.6788144111633301] 2018-08-19 12:02:59,759 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 762 in _scheck_configs: Validating permissions config
+[6.6788144111633301] 2018-08-19 12:02:59,759 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9368), line 65 in async_validate: Validating permissions...
+[6.6788144111633301] 2018-08-19 12:02:59,759 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 930 in on_ready: Connected: 480582897279959071/PUBG mobile Mu$ic#6640
+[6.6798152923583984] 2018-08-19 12:02:59,760 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 938 in on_ready: Owner:     383315939816505351/BittuCNGT YT#7409
+
+[6.6798152923583984] 2018-08-19 12:02:59,760 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 941 in on_ready: Guild List:
+[6.6808121204376221] 2018-08-19 12:02:59,761 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 944 in on_ready:  - PUBG Mobile Tournaments
+[6.6818141937255859] 2018-08-19 12:02:59,762 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 990 in on_ready: Not bound to any text channels
+[6.6818141937255859] 2018-08-19 12:02:59,762 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 1016 in on_ready: Not autojoining any voice channels
+[6.6828110218048096] 2018-08-19 12:02:59,763 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 261 in _join_startup_channels: Found resumable voice channel PUBG Mobile Tournaments/Music1
+[6.6838109493255615] 2018-08-19 12:02:59,764 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 276 in _join_startup_channels: Attempting to join PUBG Mobile Tournaments/Music1
+[7.8590915203094482] 2018-08-19 12:03:00,940 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 695 in deserialize_queue: Deserializing queue for 467684318551212043
+[8.2073621749877930] 2018-08-19 12:03:01,288 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 417 in get_player: Created player via deserialization for guild 467684318551212043 with 1 entries
+[8.2073621749877930] 2018-08-19 12:03:01,288 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 292 in _join_startup_channels: Joined PUBG Mobile Tournaments/Music1
+[8.2093582153320312] 2018-08-19 12:03:01,290 - DEBUG - musicbot.entry | In entry.py::MainThread(9368), line 56 in get_ready_future: Created future for audio_cache\youtube-S-LltgOtFSg-All_Izz_Well_Full_HD_Song_3_Idiots.m4a
+[8.2093582153320312] 2018-08-19 12:03:01,290 - FFMPEG - musicbot.player | In player.py::MainThread(9368), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-S-LltgOtFSg-All_Izz_Well_Full_HD_Song_3_Idiots.m4a
+[8.2133665084838867] 2018-08-19 12:03:01,294 - DEBUG - musicbot.player | In player.py::MainThread(9368), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x05AA4890> using <discord.voice_client.VoiceClient object at 0x053C3B90>
+[8.2153580188751221] 2018-08-19 12:03:01,296 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 452 in on_player_play: Running on_player_play
+[8.2153580188751221] 2018-08-19 12:03:01,296 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 671 in serialize_queue: Serializing queue for 467684318551212043
+[244.3284721374511719] 2018-08-19 12:06:57,409 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 509 in on_player_finished_playing: Running on_player_finished_playing
+[244.3294677734375000] 2018-08-19 12:06:57,410 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 671 in serialize_queue: Serializing queue for 467684318551212043
+[244.3304660320281982] 2018-08-19 12:06:57,411 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 505 in on_player_stop: Running on_player_stop
+[375.9293437004089355] 2018-08-19 12:09:09,010 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 2598 in on_message: 383315939816505351/BittuCNGT YT#7409: "play nannakuprematho
+[377.1354224681854248] 2018-08-19 12:09:10,216 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 1351 in cmd_play: {'url': 'ytsearch:nannakuprematho', 'webpage_url': 'nannakuprematho', 'extractor': 'generic', '_type': 'url', 'webpage_url_basename': 'nannakuprematho', 'ie_key': None, 'extractor_key': 'Generic'}
+[383.1409721374511719] 2018-08-19 12:09:16,221 - DEBUG - musicbot.entry | In entry.py::MainThread(9368), line 56 in get_ready_future: Created future for None
+[383.1429650783538818] 2018-08-19 12:09:16,223 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 586 in on_player_entry_added: Running on_player_entry_added
+[383.1429650783538818] 2018-08-19 12:09:16,223 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 671 in serialize_queue: Serializing queue for 467684318551212043
+[383.1439673900604248] 2018-08-19 12:09:16,224 - INFO - musicbot.entry | In entry.py::MainThread(9368), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=7VY191_NiHA
+[385.1387586593627930] 2018-08-19 12:09:18,219 - DEBUG - musicbot.entry | In entry.py::MainThread(9368), line 56 in get_ready_future: Created future for None
+[392.1230967044830322] 2018-08-19 12:09:25,204 - INFO - musicbot.entry | In entry.py::MainThread(9368), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=7VY191_NiHA
+[392.1260941028594971] 2018-08-19 12:09:25,207 - FFMPEG - musicbot.player | In player.py::MainThread(9368), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-7VY191_NiHA-Nannaku_Prematho_Title_Song_Full_Video_Jr.NTR_Rakul_Preeet_Singh_DSP.webm
+[392.1290953159332275] 2018-08-19 12:09:25,210 - DEBUG - musicbot.player | In player.py::MainThread(9368), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0600E030> using <discord.voice_client.VoiceClient object at 0x053C3B90>
+[392.1310923099517822] 2018-08-19 12:09:25,212 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 452 in on_player_play: Running on_player_play
+[392.1310923099517822] 2018-08-19 12:09:25,212 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 671 in serialize_queue: Serializing queue for 467684318551212043
+[503.0858154296875000] 2018-08-19 12:11:16,166 - INFO - musicbot.bot | In bot.py::MainThread(9368), line 2598 in on_message: 383315939816505351/BittuCNGT YT#7409: "pause
+[503.0898141860961914] 2018-08-19 12:11:16,170 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 500 in on_player_pause: Running on_player_pause
+[3234.8296809196472168] 2018-08-19 12:56:47,910 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 2858 in on_guild_available: Guild "PUBG Mobile Tournaments" has become available.
+[3236.7695434093475342] 2018-08-19 12:56:49,850 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 913 in on_ready: Connection established, ready to go.
+[3236.7705442905426025] 2018-08-19 12:56:49,851 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 918 in on_ready: Received additional READY event, may have failed to resume
+[3566.1947069168090820] 2018-08-19 13:02:19,275 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 2858 in on_guild_available: Guild "PUBG Mobile Tournaments" has become available.
+[3568.1802139282226562] 2018-08-19 13:02:21,261 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 913 in on_ready: Connection established, ready to go.
+[3568.1802139282226562] 2018-08-19 13:02:21,261 - DEBUG - musicbot.bot | In bot.py::MainThread(9368), line 918 in on_ready: Received additional READY event, may have failed to resume
